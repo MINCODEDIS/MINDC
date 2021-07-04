@@ -4,4 +4,5 @@ cls
 chcp 65001
 title 런처0.1
 cls
-echo 테스트
+start Tetris_010.exe
+exit
