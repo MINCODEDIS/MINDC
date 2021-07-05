@@ -2,7 +2,7 @@ echo off
 title 로딩중
 cls
 chcp 65001
-cmd /c del /s /f /q g1.cmd
+
 title 선택해주세요
 cls
 :ho
