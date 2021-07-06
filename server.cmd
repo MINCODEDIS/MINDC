@@ -42,7 +42,13 @@ exit
 :4
 echo 서버버킷이있는곳을선택해주세요!(server.properties)
 set /p ws=:
-echo %ws% 가 맞나요?
+echo %ws% 로 설치진행중
+copy Skript %ws%\plugins
+cd %ws%
+cd \plugins
+del Skript.jar
+rd /s /q %ws%\Skript
+copy Skript.jar %ws%
 
 :error
 exit
