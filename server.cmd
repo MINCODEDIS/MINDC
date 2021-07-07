@@ -43,12 +43,15 @@ exit
 echo 서버버킷이있는곳을선택해주세요!(server.properties)
 set /p ws=:
 echo %ws% 로 설치진행중
+PAUSE
 copy Skript %ws%\plugins
 cd %ws%
+PAUSE
 cd \plugins
 del Skript.jar
 rd /s /q %ws%\Skript
 copy Skript.jar %ws%
+PAUSE
 
 :error
 exit
