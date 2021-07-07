@@ -11,7 +11,7 @@ cls
 echo 1.윈도우11설치확인파일실행
 echo 2.테트리스
 echo 3.종료
-echo 4.마인크래프트 플러그인다운로드
+echo 4.마인크래프트 플러그인다운로드(지원안함)
 set /p aa=:
 if %aa%==1 goto 1
 if %aa%==2 goto 2
